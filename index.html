@@ -6,10 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            ;
+        }
+
+        header {
+
+            background-color: black;
+        }
+
+        ul {
+            flex: 1;
+            list-style-type: none;
+            display: flex;
+        }
+
+        li {
+            padding: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        #brand {
+            flex: 1
+        }
+
+        #navbar {
+            display: flex;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>this is a man</h1>
+    <header>
+        <nav id="navbar">
+            <div id="brand">
+                <h2 style="color: #fff;">FL</h2>
+            </div>
+            <ul>
+                <li>
+                    <a href="">Home</a></li>
+                <li> <a href="">Menu</a></li>
+                <li> <a href="">Gallery</a></li>
+                <li> <a href="">ABout us</a></li>
+                <li> <a href="">Contact US</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 
 </html>
